@@ -8,7 +8,12 @@ route = [
 		main.MainHandler
 	),
 	(
-		r"/login",
+		r"auth/login",
 		login.AuthHandler
+	),
+	(
+		r"/auth/register",
+		registerUser.registerHandler
 	)
+
 ]
