@@ -9,10 +9,7 @@ from tornado.web import RequestHandler, Application
 from tornado.httpserver import HTTPServer
 from tornado.ioloop import IOLoop
 import os
-
-
 from routes import *
-
 from motor import MotorClient
 
 
